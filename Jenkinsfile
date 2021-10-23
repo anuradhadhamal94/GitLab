@@ -1,6 +1,7 @@
-pipeline
+Pipeline
 {
 agent any
+  stages{
 stage(Compile)
 {
 steps
@@ -22,4 +23,5 @@ steps
 echo "Packed successfully"
 }
 }
+  }
 }
