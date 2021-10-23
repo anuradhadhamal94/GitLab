@@ -2,21 +2,21 @@ Pipeline
 {
 agent any
   stages{
-stage(Compile)
+stage('Compile')
 {
 steps
 {
-echo "compile successfully"
+echo "compiled successfully"
 }
 }
-stage(Test)
+stage('JUnit')
 {
 steps
 {
 echo "Tested successfully"
 }
 }
-stage(Package)
+stage('Package')
 {
 steps
 {
